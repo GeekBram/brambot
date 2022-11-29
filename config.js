@@ -11,6 +11,7 @@ global.github = 'https://github.com/SamPandey001/Secktor-Md'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '919628516236'
+global.devs = '919628516236';
 global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
@@ -21,6 +22,7 @@ module.exports = {
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
+  alwaysonline: process.env.ALWAYS_ONLINE || 'false',
   antifake : process.env.FAKE_COUNTRY_CODE || '',
   readmessage: process.env.READ_MESSAGE || false,
   HANDLERS: process.env.PREFIX || ['.'],
